@@ -27,3 +27,21 @@ Karabiner Elements .json file to enable YubiKey output only with a modifier key 
 
 - Caps Lock + yubikey = sliqmnoianwiiwmdoqnsknfoisjjd
 - Yubikey alone = ignored
+
+### FAQ
+
+1. Does this kill my caps lock? 
+
+- Yes.
+
+2. It doesn't work.
+
+- Fix VID/PID in the JSON file.
+- Add checkbox to modify output from yubikey in Karabiner
+- Check if Karabiner works in the first place
+
+### Credits
+
+- https://gist.github.com/simonw/
+- https://github.com/pqrs-org/Karabiner-Elements/issues/2316#issue-634843704
+
