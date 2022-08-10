@@ -11,17 +11,19 @@ Karabiner Elements .json file to enable YubiKey output only with a modifier key 
 
 ![Modifying YubiKey Output](img/yubi-switch.png)
 
-3. Copy the yubi.json file to your ~/.config/karabiner/assets/complex_modifications
+3. Make sure your VID/PID for the Yubikey (above) match those in the JSON file.
 
-4. Add the modifications under complex modifications in preferences
+4. Copy the yubi.json file to your ~/.config/karabiner/assets/complex_modifications
+
+5. Add the modifications under "complex modifications" in preferences
 
 ![Complex Modifications](img/complex-options.png)
 
-5. Make sure both are enabled
+6. Make sure both are enabled
 
 ![Options](img/options.png)
 
-6. Profit! 
+7. Profit! 
 
 - Caps Lock + yubikey = sliqmnoianwiiwmdoqnsknfoisjjd
 - Yubikey alone = ignored
